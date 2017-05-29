@@ -1,0 +1,13 @@
+.heading{
+        text-align: center;
+        font-family: 'Barrio', cursive;
+        font-size: 28px;
+    }
+.centering{
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 30%;
+        padding-right: 30%;
+        background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #00A3EF 100%);
+
+    };

@@ -1,0 +1,13 @@
+.centering{
+        padding-top: 20%;
+        padding-bottom: 20%;
+        padding-left: 40%;
+        padding-right: 30%;
+        background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #00A3EF 100%);
+
+    };
+
+.fontstyle{
+    font-family: 'Cantarell', sans-serif;
+    font-size: 30px;
+}
