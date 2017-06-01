@@ -1,0 +1,37 @@
+<div>
+<md-toolbar style="background-color:#00A3EF; color:yellow">
+  <span style="font-family: 'Montserrat Subrayada', sans-serif;">Welcome Pratyay</span>
+    <ul class="nav navbar-nav">
+      <li><a routerLink="/studentdashboard/home">Home</a></li>
+      <li  class="active"><a routerLink="/studentdashboard/allbooks">All Books</a></li>
+      <li><a routerLink="/studentdashboard/booksborrowed">Books Borrowed</a></li>
+    </ul>
+    <span class="example-spacer"></span>
+    <button class="button" routerLink="/welcome">Sign Out</button>
+</md-toolbar>
+</div>
+
+<div style="padding-left:25%">
+<md-card class="example-card">
+  <md-card-header>
+    <div md-card-avatar class="example-header-image"></div>
+    <md-card-title>Into the Water</md-card-title>
+    <md-card-subtitle>by Paula Hawkins</md-card-subtitle>
+  </md-card-header>
+  <img md-card-image src="https://prodimage.images-bn.com/pimages/9780735211209_p0_v3_s192x300.jpg" style="width:200px;height:auto">
+  <md-card-content>
+    <p>
+      <label>Description :</label>
+      Hawkins is at the forefront of a group of female authors – think Gillian Flynn and Megan Abbott – who have reinvigorated the literary suspense novel by tapping a rich vein of psychological menace and social unease… there’s a certain solace to a dark escape, in the promise of submerged truths coming to light.
+    </p>
+    <p>
+      <label>Publisher : </label> Penguin Publishing Group
+   </p>
+   <p>
+      <label>Pages : </label> 400
+   </p>
+  </md-card-content>
+  <md-card-actions>
+    <button class="btn btn-primary">Borrow</button>
+  </md-card-actions>
+</md-card>

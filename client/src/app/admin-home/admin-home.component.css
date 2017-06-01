@@ -1,0 +1,14 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+md-grid-tile {
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #00A3EF 100%);
+  font-family: 'Kumar One', cursive;
+  font-size: 36px;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+}

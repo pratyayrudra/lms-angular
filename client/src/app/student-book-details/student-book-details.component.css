@@ -1,0 +1,18 @@
+.example-card {
+  width: 600px;
+  text-align: center;
+}
+
+.example-header-image {
+  background-image: url('https://prodimage.images-bn.com/pimages/9780735211209_p0_v3_s192x300.jpg');
+  background-size: cover;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

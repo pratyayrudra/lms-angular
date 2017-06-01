@@ -1,13 +1,26 @@
-.centering{
-        padding-top: 20%;
-        padding-bottom: 20%;
-        padding-left: 40%;
-        padding-right: 30%;
-        background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFFFF 0%, #00A3EF 100%);
+.example-spacer {
+  flex: 1 1 auto;
+}
 
-    };
+.button{
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-left-color: black;
+    border-right-color: black;
+}
 
-.fontstyle{
-    font-family: 'Cantarell', sans-serif;
-    font-size: 30px;
+.buttonsignout{
+    background-color: transparent;
+    border: none;
+}
+
+.heading{
+    font-family: 'Merriweather', serif;
+}
+
+.example-card {
+  width:600px;
 }

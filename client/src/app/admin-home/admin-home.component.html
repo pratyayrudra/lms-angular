@@ -1,3 +1,13 @@
-<p>
-  admin-home works!
-</p>
+
+<md-toolbar style="background-color:#00A3EF; color:yellow">
+  <span style="font-family: 'Montserrat Subrayada', sans-serif;">Admin Dashboard</span>
+
+    <span class="example-spacer"></span>
+    <button class="button" routerLink="/welcome">Sign Out</button>
+</md-toolbar>
+
+<md-grid-list cols="3" rowHeight="1:1.4">
+  <md-grid-tile routerLink="/admindashboard/allbooks">Manage Books</md-grid-tile>
+  <md-grid-tile routerLink="/admindashboard/allstudents">Manage Students</md-grid-tile>
+  <md-grid-tile>Ebooks</md-grid-tile>
+</md-grid-list>
